@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* TODO: 여기에 작성해보세요 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 태그 선택자
+   : 태그의 이름 요소를 선택하는 방식 */
+
+header {
+    height: 85px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+header ul {
+    float: right;
+    list-style-type: none;
+}
+
+article {
+    min-height: 500px;
+    background-color:aquamarine;
+}
+
+article section {
+    float: left;
+}
+
+article aside {
+    float: right;
+    width: 200px;
+    height: 500px;
+    box-sizing: border-box;
+    background-color:#f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
